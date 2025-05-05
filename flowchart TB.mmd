@@ -1,0 +1,61 @@
+flowchart TB
+    subgraph "Nockchain System Architecture"
+        subgraph "Blockchain Layer"
+            BC[Blockchain Core]
+            CONS[Consensus]
+            STATE[State Management]
+            P2P[P2P Network]
+        end
+
+        subgraph "Nock Runtime"
+            SWORD[Sword VM]
+            JETS[Jets/Optimizations]
+            MEMORY[Memory Management]
+            PERSIST[Persistence]
+        end
+
+        subgraph "Hoon Applications"
+            WALLET[Wallet]
+            DUMBNET[DumbNet]
+            APPS[User Applications]
+        end
+
+        subgraph "Zero-Knowledge System"
+            ZKVM[ZK VM]
+            PROVER[Prover]
+            VERIFIER[Verifier]
+            JETPACK[Jetpack]
+        end
+
+        %% Connections between components
+        BC <--> CONS
+        BC <--> STATE
+        BC <--> P2P
+        
+        SWORD <--> JETS
+        SWORD <--> MEMORY
+        SWORD <--> PERSIST
+        
+        WALLET --> APPS
+        DUMBNET --> APPS
+        
+        ZKVM <--> PROVER
+        ZKVM <--> VERIFIER
+        ZKVM <--> JETPACK
+        
+        %% Inter-system connections
+        BC <--> SWORD
+        SWORD <--> APPS
+        ZKVM <--> SWORD
+        P2P <--> DUMBNET
+    end
+
+    classDef blockchain fill:#f9d5e5,stroke:#333,stroke-width:1px
+    classDef runtime fill:#eeeeee,stroke:#333,stroke-width:1px
+    classDef apps fill:#d3f8e2,stroke:#333,stroke-width:1px
+    classDef zk fill:#e3f6f5,stroke:#333,stroke-width:1px
+    
+    class BC,CONS,STATE,P2P blockchain
+    class SWORD,JETS,MEMORY,PERSIST runtime
+    class WALLET,DUMBNET,APPS apps
+    class ZKVM,PROVER,VERIFIER,JETPACK zk
