@@ -1,0 +1,21 @@
+# Python dependencies for nockit examples
+#
+# Install with: pip install -r requirements.txt
+#
+# These dependencies are needed for the Python utility scripts
+# in the nockit examples directory.
+
+# TOML parsing for peer configuration (Python < 3.11)
+tomli>=2.0.0; python_version < "3.11"
+
+# Optional dependencies for enhanced functionality
+# (These are not strictly required but provide additional features)
+
+# For enhanced JSON processing and formatting
+# jsonschema>=4.0.0
+
+# For network connectivity testing (future enhancement)
+# requests>=2.28.0
+
+# For advanced logging and monitoring (future enhancement)
+# rich>=13.0.0 

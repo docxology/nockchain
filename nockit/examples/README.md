@@ -126,6 +126,103 @@ chmod +x nockit/examples/setup_nockchain.sh
 
 ---
 
+### 5. 📊 Mining Statistics Analyzer (`mining_stats.py`)
+
+**Description**: Python script for analyzing nockchain mining statistics from wallet data.
+
+**Features Demonstrated**:
+- Socket-based communication with nockchain wallet
+- Coinbase block detection and parsing
+- Miner ranking and statistics calculation
+- Configurable timeout and debug logging
+- Comprehensive error handling and validation
+
+**Run Command**:
+```bash
+python3 nockit/examples/mining_stats.py [--socket PATH] [--timeout SECONDS] [--debug]
+```
+
+**Options**:
+- `--socket PATH` - Path to nockchain socket (default: `.socket/nockchain_npc.sock`)
+- `--timeout SECONDS` - Timeout for wallet commands (default: 30)
+- `--debug` - Enable debug logging output
+- `--help` - Show usage information
+
+**Requirements**:
+- Python 3.6+ with standard library
+- `nockchain-wallet` binary in PATH
+- Active nockchain socket connection
+- Optional: `pip install -r nockit/examples/requirements.txt` for enhanced features
+
+**Example Output**:
+```
+⛏️  Nockchain Mining Statistics Analyzer
+=============================================
+
+Miner Rankings (out of 42 full coinbase blocks):
+   #  WALLET                               BLOCKS      %
+------------------------------------------------------------
+  #1  a1b2c3d4e5f6...9876543210abcdef           15   35.7%
+  #2  fedcba0987654321...123456789abcdef         12   28.6%
+  #3  0123456789abcdef...fedcba0987654321          8   19.0%
+
+Summary:
+  Total miners: 8
+  Total blocks: 42
+  Average blocks per miner: 5.2
+  Last updated: 2024-01-15 14:30:25
+```
+
+---
+
+### 6. 🌐 Peer Configuration Management (`nockchain_peers.toml` & `peer_helper.py`)
+
+**Description**: Comprehensive peer configuration system for nockchain network connectivity.
+
+**Files**:
+- `nockchain_peers.toml` - TOML configuration with known stable peers
+- `peer_helper.py` - Python utility for parsing and formatting peer data
+
+**Peer Configuration Features**:
+- Regional peer grouping (EU, US, Global)
+- Reliability ratings (high, medium, low)
+- Provider categorization (GCP, AWS, etc.)
+- Connection recommendations and timeouts
+- Structured metadata for each peer
+
+**Peer Helper Features**:
+- Multiple output formats (args, list, json, table)
+- Filtering by region, reliability, or provider
+- Configuration validation
+- Command-line argument generation
+
+**Run Commands**:
+```bash
+# Show all peers in table format
+python3 nockit/examples/peer_helper.py
+
+# Generate command-line arguments for high-reliability EU peers
+python3 nockit/examples/peer_helper.py --format args --region EU --reliability high
+
+# Export JSON for programmatic use
+python3 nockit/examples/peer_helper.py --format json --provider GCP
+
+# Validate configuration
+python3 nockit/examples/peer_helper.py --validate
+
+# Show network information
+python3 nockit/examples/peer_helper.py --info
+```
+
+**Example Usage in Scripts**:
+```bash
+# Use peer helper to generate arguments for nockchain
+PEER_ARGS=$(python3 nockit/examples/peer_helper.py --format args --regional global)
+nockchain-wallet $PEER_ARGS --other-options
+```
+
+---
+
 ## Usage Workflow
 
 ### Getting Started
@@ -134,6 +231,9 @@ chmod +x nockit/examples/setup_nockchain.sh
    ```bash
    # Run the automated setup script
    ./nockit/examples/setup_nockchain.sh
+   
+   # Install Python dependencies (optional, for enhanced features)
+   pip install -r nockit/examples/requirements.txt
    ```
 
 2. **Comprehensive Demo**:
@@ -152,6 +252,21 @@ chmod +x nockit/examples/setup_nockchain.sh
    ```bash
    # Start mining with advanced monitoring
    cargo run --package nockit --example mining_with_analytics
+   ```
+
+5. **Mining Statistics Analysis**:
+   ```bash
+   # Analyze current mining statistics
+   python3 nockit/examples/mining_stats.py --debug
+   ```
+
+6. **Peer Configuration Management**:
+   ```bash
+   # View available peers
+   python3 nockit/examples/peer_helper.py --format table
+   
+   # Generate peer arguments for mining
+   PEERS=$(python3 nockit/examples/peer_helper.py --format args --reliability high)
    ```
 
 ### Production Workflow
@@ -258,6 +373,13 @@ nockit wallet status --config-dir .wallet_demo
 
 # Start mining with generated configuration
 nockit mining start --pubkey $(cat .wallet_demo/wallet_info.json | jq -r .public_key)
+
+# Analyze mining statistics
+python3 nockit/examples/mining_stats.py --socket .mining_analytics_demo/.socket/nockchain_npc.sock
+
+# Use peer configuration for network connectivity
+PEER_ARGS=$(python3 nockit/examples/peer_helper.py --format args --regional global)
+nockit mining start $PEER_ARGS --pubkey $(cat .wallet_demo/wallet_info.json | jq -r .public_key)
 ```
 
 ---
