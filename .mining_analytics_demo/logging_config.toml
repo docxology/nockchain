@@ -1,0 +1,35 @@
+
+# Advanced Mining Logging Configuration
+
+# Log levels: TRACE, DEBUG, INFO, WARN, ERROR
+log_level = "DEBUG"
+
+# Enable structured logging
+structured_logs = true
+
+# Log rotation settings
+max_log_size = "100MB"
+max_log_files = 10
+rotation_interval = "1h"
+
+# Component-specific logging
+[components]
+mining = "DEBUG"
+network = "INFO" 
+wallet = "INFO"
+consensus = "DEBUG"
+performance = "TRACE"
+
+# Metrics collection
+[metrics]
+hash_rate_interval = "10s"
+memory_sampling = "30s"
+network_stats = "60s"
+block_timing = true
+
+# Analytics settings
+[analytics]
+real_time = true
+classification = true
+pattern_detection = true
+visualization = true

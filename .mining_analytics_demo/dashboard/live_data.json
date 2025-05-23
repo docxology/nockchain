@@ -1,0 +1,20 @@
+{
+  "alerts": [
+    {
+      "level": "warning",
+      "message": "Memory usage trending upward",
+      "timestamp": "2025-05-23T15:36:54.725303564Z"
+    }
+  ],
+  "last_update": "2025-05-23T15:36:54.725279001Z",
+  "metrics": {
+    "blocks_attempted": 23,
+    "cpu_percent": 35.8,
+    "hash_rate": 1247.5,
+    "log_entries": 200,
+    "memory_mb": 295.2,
+    "peer_count": 5,
+    "uptime_seconds": 600
+  },
+  "status": "active"
+}

@@ -1,0 +1,15 @@
+{
+  "backup_type": "wallet_keys",
+  "created": "2025-05-23T17:18:19.441914184Z",
+  "keys": {
+    "chain_code": "demo_chain_code",
+    "private_key_encrypted": "demo_private_key_encrypted_data",
+    "public_key": "demo_public_key_encrypted",
+    "seed_phrase_encrypted": "demo_seed_phrase_encrypted"
+  },
+  "metadata": {
+    "demo_mode": true,
+    "encryption": "AES-256-GCM",
+    "version": "1.0"
+  }
+}

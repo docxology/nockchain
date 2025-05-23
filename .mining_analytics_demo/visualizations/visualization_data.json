@@ -1,0 +1,23 @@
+{
+  "component_bar": {
+    "color": "#007bff",
+    "data": [],
+    "labels": []
+  },
+  "log_level_pie": {
+    "colors": [
+      "#28a745",
+      "#17a2b8",
+      "#6c757d",
+      "#ffc107",
+      "#dc3545"
+    ],
+    "data": [],
+    "labels": []
+  },
+  "performance_timeline": {
+    "cpu": [],
+    "hash_rate": [],
+    "memory": []
+  }
+}

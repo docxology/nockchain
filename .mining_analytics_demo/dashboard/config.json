@@ -1,0 +1,29 @@
+{
+  "dashboard": {
+    "refresh_interval": 30,
+    "title": "Nockchain Mining Analytics",
+    "widgets": [
+      {
+        "data_source": "metrics/time_series.json",
+        "field": "hash_rate_over_time",
+        "id": "hash_rate",
+        "title": "Hash Rate",
+        "type": "metric"
+      },
+      {
+        "data_source": "metrics/time_series.json",
+        "field": "memory_usage_over_time",
+        "id": "memory_usage",
+        "title": "Memory Usage",
+        "type": "chart"
+      },
+      {
+        "data_source": "analytics/log_analysis.json",
+        "field": "log_levels",
+        "id": "log_distribution",
+        "title": "Log Level Distribution",
+        "type": "pie"
+      }
+    ]
+  }
+}

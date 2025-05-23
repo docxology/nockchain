@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nockchain Mining Analytics Dashboard</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 0; padding: 20px; background: #f5f5f5; }
+        .header { text-align: center; color: #333; margin-bottom: 30px; }
+        .dashboard { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 20px; }
+        .card { background: white; border-radius: 8px; padding: 20px; box-shadow: 0 2px 4px rgba(0,0,0,0.1); }
+        .metric { font-size: 2em; font-weight: bold; color: #007bff; }
+        .label { color: #666; margin-bottom: 10px; }
+        .status-good { color: #28a745; }
+        .status-warning { color: #ffc107; }
+        .status-error { color: #dc3545; }
+        .chart-placeholder { 
+            height: 200px; 
+            background: linear-gradient(45deg, #f8f9fa, #e9ecef);
+            border-radius: 4px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>⛏️ Nockchain Mining Analytics Dashboard</h1>
+        <p>Real-time monitoring and analytics for mining operations</p>
+    </div>
+    
+    <div class="dashboard">
+        <div class="card">
+            <div class="label">Hash Rate</div>
+            <div class="metric status-good">1,247 H/s</div>
+            <div class="chart-placeholder">Hash Rate Chart</div>
+        </div>
+        
+        <div class="card">
+            <div class="label">Blocks Attempted</div>
+            <div class="metric">23</div>
+            <div class="label">Success Rate: 0.0%</div>
+        </div>
+        
+        <div class="card">
+            <div class="label">Memory Usage</div>
+            <div class="metric status-warning">295 MB</div>
+            <div class="chart-placeholder">Memory Usage Chart</div>
+        </div>
+        
+        <div class="card">
+            <div class="label">Network Status</div>
+            <div class="metric status-good">5 Peers</div>
+            <div class="label">Connected and syncing</div>
+        </div>
+        
+        <div class="card">
+            <div class="label">Log Activity</div>
+            <div class="metric">200</div>
+            <div class="label">Entries analyzed</div>
+            <div class="chart-placeholder">Log Level Distribution</div>
+        </div>
+        
+        <div class="card">
+            <div class="label">Session Uptime</div>
+            <div class="metric status-good">10m 0s</div>
+            <div class="label">Mining session active</div>
+        </div>
+    </div>
+    
+    <script>
+        // Auto-refresh dashboard every 30 seconds
+        setTimeout(() => location.reload(), 30000);
+        
+        // Add real-time updates here
+        console.log('Mining Analytics Dashboard loaded');
+    </script>
+</body>
+</html>

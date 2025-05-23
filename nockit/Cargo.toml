@@ -1,0 +1,86 @@
+[package]
+name = "nockit"
+version = "0.5.0"
+edition = "2021"
+description = "Comprehensive toolkit for nockchain development, monitoring, and operations"
+authors = ["docxology"]
+
+[dependencies]
+# Core dependencies
+anyhow = "1.0"
+tokio = { version = "1.32", features = ["full"] }
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+chrono = { version = "0.4", features = ["serde"] }
+clap = { version = "4.4", features = ["derive"] }
+tracing = "0.1"
+tracing-subscriber = { version = "0.3", features = ["env-filter", "json"] }
+tracing-appender = "0.2"
+
+# Configuration
+config = "0.14"
+toml = "0.8"
+dotenv = "0.15"
+
+# Crypto
+blake3 = "1.5"
+ed25519-dalek = "2.1"
+rand = "0.8"
+base58ck = "0.1"
+bs58 = "0.5"
+hex = "0.4"
+
+# Network
+hickory-resolver = "0.25.0-alpha.4"
+reqwest = { version = "0.12", features = ["json"] }
+
+# System
+sysinfo = "0.30"
+
+# File operations
+tempfile = "3.8"
+
+# Text processing
+regex = "1.10"
+
+# UI
+ratatui = "0.29"
+crossterm = "0.29"
+tui-logger = "0.12"
+
+# Utilities
+fs_extra = "1.3"
+shellexpand = "3.1"
+
+# Testing
+serial_test = "3.2"
+assert_cmd = "2.0"
+predicates = "3.1"
+tokio-test = "0.4"
+
+# Workspace dependencies
+nockchain = { path = "../crates/nockchain" }
+# Note: nockchain-wallet is a binary crate, so we can't depend on it as a library
+
+[dev-dependencies]
+tempfile = "3.3"
+tokio-test = "0.4"
+assert_cmd = "2.0"
+predicates = "3.0"
+serial_test = "3.0"
+
+[[bin]]
+name = "nockit"
+path = "src/main.rs"
+
+[[bin]]
+name = "nocklog"
+path = "src/bin/nocklog.rs"
+
+[[bin]]
+name = "nockmon"
+path = "src/bin/nockmon.rs"
+
+[[bin]]
+name = "nocksetup"
+path = "src/bin/nocksetup.rs" 

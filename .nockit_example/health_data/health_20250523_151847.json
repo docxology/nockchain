@@ -1,0 +1,36 @@
+{
+  "timestamp": "2025-05-23T15:18:47.564858408Z",
+  "overall_status": "Critical",
+  "nockchain_status": {
+    "status": "Critical",
+    "message": "Nockchain process not found",
+    "last_check": "2025-05-23T15:18:47.592183970Z",
+    "uptime_seconds": null
+  },
+  "mining_status": {
+    "status": "Warning",
+    "message": "Mining not configured",
+    "last_check": "2025-05-23T15:18:47.592226995Z",
+    "uptime_seconds": null
+  },
+  "network_status": {
+    "status": "Critical",
+    "message": "Cannot connect to nockchain node",
+    "last_check": "2025-05-23T15:18:47.592444934Z",
+    "uptime_seconds": null
+  },
+  "wallet_status": {
+    "status": "Warning",
+    "message": "No mining public key configured",
+    "last_check": "2025-05-23T15:18:47.592527230Z",
+    "uptime_seconds": null
+  },
+  "system_metrics": {
+    "cpu_usage_percent": 0.0,
+    "memory_usage_percent": 0.0,
+    "disk_usage_percent": 0.0,
+    "network_rx_bytes": 0,
+    "network_tx_bytes": 0,
+    "process_count": 494
+  }
+}

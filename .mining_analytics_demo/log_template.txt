@@ -1,0 +1,7 @@
+
+# Log Entry Template for Mining Analytics
+
+{timestamp} [{level}] [{component}] {message}
+  ├── Metrics: {metrics}
+  ├── Context: {context}
+  └── Session: {session_id}

@@ -1,0 +1,202 @@
+2025-05-23 15:36:54.719 [INFO] [mining] Mining started with public key: mining_demo_key_1748014614 | {"wallet": String("mining_demo_key_1748014614"), "session_id": String("mining_session_1748014614")}
+2025-05-23 15:36:57.719 [DEBUG] [mining] Current hash rate: 1173.20 H/s | {"unit": String("H/s"), "hash_rate": Number(1173.2047826011021)}
+2025-05-23 15:37:00.719 [DEBUG] [mining] Current hash rate: 1118.21 H/s | {"unit": String("H/s"), "hash_rate": Number(1118.208804362531)}
+2025-05-23 15:37:03.719 [DEBUG] [mining] Current hash rate: 1094.83 H/s | {"hash_rate": Number(1094.8314840272901), "unit": String("H/s")}
+2025-05-23 15:37:06.719 [INFO] [network] Connected to 7 peers | {"peer_count": Number(7), "network_status": String("connected")}
+2025-05-23 15:37:09.719 [INFO] [network] Connected to 8 peers | {"peer_count": Number(8), "network_status": String("connected")}
+2025-05-23 15:37:12.719 [DEBUG] [mining] Attempting to mine block #0 | {"block_number": Number(0), "attempt": Number(6)}
+2025-05-23 15:37:15.719 [TRACE] [performance] Memory usage: 298.4 MB | {"memory_type": String("heap"), "memory_mb": Number(298.3814749833764)}
+2025-05-23 15:37:18.719 [INFO] [network] Established connection with peer_3 | {"peer_id": String("peer_3"), "connection_type": String("outbound")}
+2025-05-23 15:37:21.719 [TRACE] [performance] CPU usage: 47.1% | {"cores_active": Number(4), "cpu_percent": Number(47.11712607625263)}
+2025-05-23 15:37:24.719 [INFO] [mining] Mining started with public key: mining_demo_key_1748014614 | {"wallet": String("mining_demo_key_1748014614"), "session_id": String("mining_session_1748014614")}
+2025-05-23 15:37:27.719 [DEBUG] [mining] Current hash rate: 1242.85 H/s | {"unit": String("H/s"), "hash_rate": Number(1242.84630798942)}
+2025-05-23 15:37:30.719 [DEBUG] [mining] Current hash rate: 1209.92 H/s | {"hash_rate": Number(1209.92107716077), "unit": String("H/s")}
+2025-05-23 15:37:33.719 [DEBUG] [mining] Current hash rate: 1144.29 H/s | {"hash_rate": Number(1144.2925592429706), "unit": String("H/s")}
+2025-05-23 15:37:36.719 [INFO] [network] Connected to 7 peers | {"peer_count": Number(7), "network_status": String("connected")}
+2025-05-23 15:37:39.719 [INFO] [network] Connected to 8 peers | {"peer_count": Number(8), "network_status": String("connected")}
+2025-05-23 15:37:42.719 [DEBUG] [mining] Attempting to mine block #1 | {"attempt": Number(6), "block_number": Number(1)}
+2025-05-23 15:37:45.719 [TRACE] [performance] Memory usage: 325.9 MB | {"memory_mb": Number(325.90643288801334), "memory_type": String("heap")}
+2025-05-23 15:37:48.719 [INFO] [network] Established connection with peer_3 | {"peer_id": String("peer_3"), "connection_type": String("outbound")}
+2025-05-23 15:37:51.719 [TRACE] [performance] CPU usage: 40.8% | {"cpu_percent": Number(40.80843269603509), "cores_active": Number(4)}
+2025-05-23 15:37:54.719 [INFO] [mining] Mining started with public key: mining_demo_key_1748014614 | {"session_id": String("mining_session_1748014614"), "wallet": String("mining_demo_key_1748014614")}
+2025-05-23 15:37:57.719 [DEBUG] [mining] Current hash rate: 1366.91 H/s | {"unit": String("H/s"), "hash_rate": Number(1366.9136358429228)}
+2025-05-23 15:38:00.719 [DEBUG] [mining] Current hash rate: 1221.76 H/s | {"hash_rate": Number(1221.761120402171), "unit": String("H/s")}
+2025-05-23 15:38:03.719 [DEBUG] [mining] Current hash rate: 1341.81 H/s | {"hash_rate": Number(1341.8097285536387), "unit": String("H/s")}
+2025-05-23 15:38:06.719 [INFO] [network] Connected to 7 peers | {"peer_count": Number(7), "network_status": String("connected")}
+2025-05-23 15:38:09.719 [INFO] [network] Connected to 8 peers | {"peer_count": Number(8), "network_status": String("connected")}
+2025-05-23 15:38:12.719 [DEBUG] [mining] Attempting to mine block #2 | {"block_number": Number(2), "attempt": Number(6)}
+2025-05-23 15:38:15.719 [TRACE] [performance] Memory usage: 310.4 MB | {"memory_mb": Number(310.4284069754839), "memory_type": String("heap")}
+2025-05-23 15:38:18.719 [INFO] [network] Established connection with peer_3 | {"peer_id": String("peer_3"), "connection_type": String("outbound")}
+2025-05-23 15:38:21.719 [TRACE] [performance] CPU usage: 55.2% | {"cores_active": Number(4), "cpu_percent": Number(55.225336630711155)}
+2025-05-23 15:38:24.719 [INFO] [mining] Mining started with public key: mining_demo_key_1748014614 | {"wallet": String("mining_demo_key_1748014614"), "session_id": String("mining_session_1748014614")}
+2025-05-23 15:38:27.719 [DEBUG] [mining] Current hash rate: 1388.00 H/s | {"unit": String("H/s"), "hash_rate": Number(1387.9979225039178)}
+2025-05-23 15:38:30.719 [DEBUG] [mining] Current hash rate: 1501.57 H/s | {"unit": String("H/s"), "hash_rate": Number(1501.5678058508672)}
+2025-05-23 15:38:33.719 [DEBUG] [mining] Current hash rate: 1336.00 H/s | {"hash_rate": Number(1335.9951158972306), "unit": String("H/s")}
+2025-05-23 15:38:36.719 [INFO] [network] Connected to 7 peers | {"network_status": String("connected"), "peer_count": Number(7)}
+2025-05-23 15:38:39.719 [INFO] [network] Connected to 8 peers | {"peer_count": Number(8), "network_status": String("connected")}
+2025-05-23 15:38:42.719 [DEBUG] [mining] Attempting to mine block #3 | {"attempt": Number(6), "block_number": Number(3)}
+2025-05-23 15:38:45.719 [TRACE] [performance] Memory usage: 326.0 MB | {"memory_type": String("heap"), "memory_mb": Number(326.004479577708)}
+2025-05-23 15:38:48.719 [INFO] [network] Established connection with peer_3 | {"connection_type": String("outbound"), "peer_id": String("peer_3")}
+2025-05-23 15:38:51.719 [TRACE] [performance] CPU usage: 50.8% | {"cpu_percent": Number(50.755637182706735), "cores_active": Number(4)}
+2025-05-23 15:38:54.719 [INFO] [mining] Mining started with public key: mining_demo_key_1748014614 | {"session_id": String("mining_session_1748014614"), "wallet": String("mining_demo_key_1748014614")}
+2025-05-23 15:38:57.719 [DEBUG] [mining] Current hash rate: 1519.87 H/s | {"unit": String("H/s"), "hash_rate": Number(1519.8720653248674)}
+2025-05-23 15:39:00.719 [DEBUG] [mining] Current hash rate: 1503.72 H/s | {"unit": String("H/s"), "hash_rate": Number(1503.7191600094895)}
+2025-05-23 15:39:03.719 [DEBUG] [mining] Current hash rate: 1558.33 H/s | {"hash_rate": Number(1558.3291348216585), "unit": String("H/s")}
+2025-05-23 15:39:06.719 [INFO] [network] Connected to 7 peers | {"peer_count": Number(7), "network_status": String("connected")}
+2025-05-23 15:39:09.719 [INFO] [network] Connected to 8 peers | {"peer_count": Number(8), "network_status": String("connected")}
+2025-05-23 15:39:12.719 [DEBUG] [mining] Attempting to mine block #4 | {"attempt": Number(6), "block_number": Number(4)}
+2025-05-23 15:39:15.719 [TRACE] [performance] Memory usage: 368.5 MB | {"memory_mb": Number(368.464014604086), "memory_type": String("heap")}
+2025-05-23 15:39:18.719 [INFO] [network] Established connection with peer_3 | {"peer_id": String("peer_3"), "connection_type": String("outbound")}
+2025-05-23 15:39:21.719 [TRACE] [performance] CPU usage: 67.6% | {"cpu_percent": Number(67.58841761360605), "cores_active": Number(4)}
+2025-05-23 15:39:24.719 [INFO] [mining] Mining started with public key: mining_demo_key_1748014614 | {"session_id": String("mining_session_1748014614"), "wallet": String("mining_demo_key_1748014614")}
+2025-05-23 15:39:27.719 [DEBUG] [mining] Current hash rate: 1553.45 H/s | {"hash_rate": Number(1553.4466208245185), "unit": String("H/s")}
+2025-05-23 15:39:30.719 [DEBUG] [mining] Current hash rate: 1706.65 H/s | {"unit": String("H/s"), "hash_rate": Number(1706.649073204021)}
+2025-05-23 15:39:33.719 [DEBUG] [mining] Current hash rate: 1666.81 H/s | {"hash_rate": Number(1666.8149393054973), "unit": String("H/s")}
+2025-05-23 15:39:36.719 [INFO] [network] Connected to 7 peers | {"peer_count": Number(7), "network_status": String("connected")}
+2025-05-23 15:39:39.719 [INFO] [network] Connected to 8 peers | {"peer_count": Number(8), "network_status": String("connected")}
+2025-05-23 15:39:42.719 [DEBUG] [mining] Attempting to mine block #5 | {"attempt": Number(6), "block_number": Number(5)}
+2025-05-23 15:39:45.719 [TRACE] [performance] Memory usage: 411.6 MB | {"memory_type": String("heap"), "memory_mb": Number(411.5629987000771)}
+2025-05-23 15:39:48.719 [INFO] [network] Established connection with peer_3 | {"peer_id": String("peer_3"), "connection_type": String("outbound")}
+2025-05-23 15:39:51.719 [TRACE] [performance] CPU usage: 68.9% | {"cores_active": Number(4), "cpu_percent": Number(68.89189472073653)}
+2025-05-23 15:39:54.719 [INFO] [mining] Mining started with public key: mining_demo_key_1748014614 | {"session_id": String("mining_session_1748014614"), "wallet": String("mining_demo_key_1748014614")}
+2025-05-23 15:39:57.719 [DEBUG] [mining] Current hash rate: 1638.68 H/s | {"unit": String("H/s"), "hash_rate": Number(1638.681369831832)}
+2025-05-23 15:40:00.719 [DEBUG] [mining] Current hash rate: 1691.81 H/s | {"hash_rate": Number(1691.805323448718), "unit": String("H/s")}
+2025-05-23 15:40:03.719 [DEBUG] [mining] Current hash rate: 1677.78 H/s | {"hash_rate": Number(1677.7762250274227), "unit": String("H/s")}
+2025-05-23 15:40:06.719 [INFO] [network] Connected to 7 peers | {"peer_count": Number(7), "network_status": String("connected")}
+2025-05-23 15:40:09.719 [INFO] [network] Connected to 8 peers | {"network_status": String("connected"), "peer_count": Number(8)}
+2025-05-23 15:40:12.719 [DEBUG] [mining] Attempting to mine block #6 | {"block_number": Number(6), "attempt": Number(6)}
+2025-05-23 15:40:15.719 [TRACE] [performance] Memory usage: 394.9 MB | {"memory_mb": Number(394.85700876570604), "memory_type": String("heap")}
+2025-05-23 15:40:18.719 [INFO] [network] Established connection with peer_3 | {"peer_id": String("peer_3"), "connection_type": String("outbound")}
+2025-05-23 15:40:21.719 [TRACE] [performance] CPU usage: 76.5% | {"cores_active": Number(4), "cpu_percent": Number(76.47543249486581)}
+2025-05-23 15:40:24.719 [INFO] [mining] Mining started with public key: mining_demo_key_1748014614 | {"wallet": String("mining_demo_key_1748014614"), "session_id": String("mining_session_1748014614")}
+2025-05-23 15:40:27.719 [DEBUG] [mining] Current hash rate: 1888.06 H/s | {"hash_rate": Number(1888.061692521522), "unit": String("H/s")}
+2025-05-23 15:40:30.719 [DEBUG] [mining] Current hash rate: 1744.84 H/s | {"hash_rate": Number(1744.8386453880216), "unit": String("H/s")}
+2025-05-23 15:40:33.719 [DEBUG] [mining] Current hash rate: 1783.07 H/s | {"hash_rate": Number(1783.0747970295922), "unit": String("H/s")}
+2025-05-23 15:40:36.719 [INFO] [network] Connected to 7 peers | {"network_status": String("connected"), "peer_count": Number(7)}
+2025-05-23 15:40:39.719 [INFO] [network] Connected to 8 peers | {"network_status": String("connected"), "peer_count": Number(8)}
+2025-05-23 15:40:42.719 [DEBUG] [mining] Attempting to mine block #7 | {"block_number": Number(7), "attempt": Number(6)}
+2025-05-23 15:40:45.719 [TRACE] [performance] Memory usage: 412.3 MB | {"memory_type": String("heap"), "memory_mb": Number(412.3356892585358)}
+2025-05-23 15:40:48.719 [INFO] [network] Established connection with peer_3 | {"peer_id": String("peer_3"), "connection_type": String("outbound")}
+2025-05-23 15:40:51.719 [TRACE] [performance] CPU usage: 76.7% | {"cpu_percent": Number(76.6900798017913), "cores_active": Number(4)}
+2025-05-23 15:40:54.719 [INFO] [mining] Mining started with public key: mining_demo_key_1748014614 | {"session_id": String("mining_session_1748014614"), "wallet": String("mining_demo_key_1748014614")}
+2025-05-23 15:40:57.719 [DEBUG] [mining] Current hash rate: 1998.56 H/s | {"hash_rate": Number(1998.560802774956), "unit": String("H/s")}
+2025-05-23 15:41:00.719 [DEBUG] [mining] Current hash rate: 1954.76 H/s | {"unit": String("H/s"), "hash_rate": Number(1954.7627265526721)}
+2025-05-23 15:41:03.719 [DEBUG] [mining] Current hash rate: 1937.75 H/s | {"hash_rate": Number(1937.7474672758913), "unit": String("H/s")}
+2025-05-23 15:41:06.719 [INFO] [network] Connected to 7 peers | {"network_status": String("connected"), "peer_count": Number(7)}
+2025-05-23 15:41:09.719 [INFO] [network] Connected to 8 peers | {"peer_count": Number(8), "network_status": String("connected")}
+2025-05-23 15:41:12.719 [DEBUG] [mining] Attempting to mine block #8 | {"attempt": Number(6), "block_number": Number(8)}
+2025-05-23 15:41:15.719 [TRACE] [performance] Memory usage: 468.8 MB | {"memory_type": String("heap"), "memory_mb": Number(468.8471713783691)}
+2025-05-23 15:41:18.719 [INFO] [network] Established connection with peer_3 | {"peer_id": String("peer_3"), "connection_type": String("outbound")}
+2025-05-23 15:41:21.719 [TRACE] [performance] CPU usage: 79.2% | {"cpu_percent": Number(79.17793123719345), "cores_active": Number(4)}
+2025-05-23 15:41:24.719 [INFO] [mining] Mining started with public key: mining_demo_key_1748014614 | {"session_id": String("mining_session_1748014614"), "wallet": String("mining_demo_key_1748014614")}
+2025-05-23 15:41:27.719 [DEBUG] [mining] Current hash rate: 1965.68 H/s | {"hash_rate": Number(1965.6827614271137), "unit": String("H/s")}
+2025-05-23 15:41:30.719 [DEBUG] [mining] Current hash rate: 2119.89 H/s | {"hash_rate": Number(2119.8860541748127), "unit": String("H/s")}
+2025-05-23 15:41:33.719 [DEBUG] [mining] Current hash rate: 2079.34 H/s | {"hash_rate": Number(2079.339002582327), "unit": String("H/s")}
+2025-05-23 15:41:36.719 [INFO] [network] Connected to 7 peers | {"peer_count": Number(7), "network_status": String("connected")}
+2025-05-23 15:41:39.719 [INFO] [network] Connected to 8 peers | {"peer_count": Number(8), "network_status": String("connected")}
+2025-05-23 15:41:42.719 [DEBUG] [mining] Attempting to mine block #9 | {"attempt": Number(6), "block_number": Number(9)}
+2025-05-23 15:41:45.719 [TRACE] [performance] Memory usage: 474.9 MB | {"memory_type": String("heap"), "memory_mb": Number(474.9093719202502)}
+2025-05-23 15:41:48.719 [INFO] [network] Established connection with peer_3 | {"connection_type": String("outbound"), "peer_id": String("peer_3")}
+2025-05-23 15:41:51.719 [TRACE] [performance] CPU usage: 80.8% | {"cpu_percent": Number(80.77537917462006), "cores_active": Number(4)}
+2025-05-23 15:41:54.719 [INFO] [mining] Mining started with public key: mining_demo_key_1748014614 | {"session_id": String("mining_session_1748014614"), "wallet": String("mining_demo_key_1748014614")}
+2025-05-23 15:41:57.719 [DEBUG] [mining] Current hash rate: 2039.85 H/s | {"hash_rate": Number(2039.849596242066), "unit": String("H/s")}
+2025-05-23 15:42:00.719 [DEBUG] [mining] Current hash rate: 2170.33 H/s | {"hash_rate": Number(2170.333941881669), "unit": String("H/s")}
+2025-05-23 15:42:03.719 [DEBUG] [mining] Current hash rate: 2093.54 H/s | {"unit": String("H/s"), "hash_rate": Number(2093.5364908927645)}
+2025-05-23 15:42:06.719 [INFO] [network] Connected to 7 peers | {"peer_count": Number(7), "network_status": String("connected")}
+2025-05-23 15:42:09.719 [INFO] [network] Connected to 8 peers | {"network_status": String("connected"), "peer_count": Number(8)}
+2025-05-23 15:42:12.719 [DEBUG] [mining] Attempting to mine block #10 | {"block_number": Number(10), "attempt": Number(6)}
+2025-05-23 15:42:15.719 [TRACE] [performance] Memory usage: 508.0 MB | {"memory_type": String("heap"), "memory_mb": Number(508.0421402855733)}
+2025-05-23 15:42:18.719 [INFO] [network] Established connection with peer_3 | {"connection_type": String("outbound"), "peer_id": String("peer_3")}
+2025-05-23 15:42:21.719 [TRACE] [performance] CPU usage: 96.9% | {"cpu_percent": Number(96.9116358103906), "cores_active": Number(4)}
+2025-05-23 15:42:24.719 [INFO] [mining] Mining started with public key: mining_demo_key_1748014614 | {"session_id": String("mining_session_1748014614"), "wallet": String("mining_demo_key_1748014614")}
+2025-05-23 15:42:27.719 [DEBUG] [mining] Current hash rate: 2221.31 H/s | {"unit": String("H/s"), "hash_rate": Number(2221.3104355457813)}
+2025-05-23 15:42:30.719 [DEBUG] [mining] Current hash rate: 2183.51 H/s | {"hash_rate": Number(2183.5074910660346), "unit": String("H/s")}
+2025-05-23 15:42:33.719 [DEBUG] [mining] Current hash rate: 2199.72 H/s | {"hash_rate": Number(2199.718819491349), "unit": String("H/s")}
+2025-05-23 15:42:36.719 [INFO] [network] Connected to 7 peers | {"peer_count": Number(7), "network_status": String("connected")}
+2025-05-23 15:42:39.719 [INFO] [network] Connected to 8 peers | {"network_status": String("connected"), "peer_count": Number(8)}
+2025-05-23 15:42:42.719 [DEBUG] [mining] Attempting to mine block #11 | {"attempt": Number(6), "block_number": Number(11)}
+2025-05-23 15:42:45.719 [TRACE] [performance] Memory usage: 521.2 MB | {"memory_type": String("heap"), "memory_mb": Number(521.2260737728333)}
+2025-05-23 15:42:48.719 [INFO] [network] Established connection with peer_3 | {"connection_type": String("outbound"), "peer_id": String("peer_3")}
+2025-05-23 15:42:51.719 [TRACE] [performance] CPU usage: 100.5% | {"cpu_percent": Number(100.5433025704356), "cores_active": Number(4)}
+2025-05-23 15:42:54.719 [INFO] [mining] Mining started with public key: mining_demo_key_1748014614 | {"wallet": String("mining_demo_key_1748014614"), "session_id": String("mining_session_1748014614")}
+2025-05-23 15:42:57.719 [DEBUG] [mining] Current hash rate: 2249.74 H/s | {"unit": String("H/s"), "hash_rate": Number(2249.7447265592077)}
+2025-05-23 15:43:00.719 [DEBUG] [mining] Current hash rate: 2350.22 H/s | {"hash_rate": Number(2350.216861705459), "unit": String("H/s")}
+2025-05-23 15:43:03.719 [DEBUG] [mining] Current hash rate: 2355.95 H/s | {"hash_rate": Number(2355.9461055919014), "unit": String("H/s")}
+2025-05-23 15:43:06.719 [INFO] [network] Connected to 7 peers | {"network_status": String("connected"), "peer_count": Number(7)}
+2025-05-23 15:43:09.719 [INFO] [network] Connected to 8 peers | {"network_status": String("connected"), "peer_count": Number(8)}
+2025-05-23 15:43:12.719 [DEBUG] [mining] Attempting to mine block #12 | {"attempt": Number(6), "block_number": Number(12)}
+2025-05-23 15:43:15.719 [TRACE] [performance] Memory usage: 535.8 MB | {"memory_type": String("heap"), "memory_mb": Number(535.7617793030219)}
+2025-05-23 15:43:18.719 [INFO] [network] Established connection with peer_3 | {"peer_id": String("peer_3"), "connection_type": String("outbound")}
+2025-05-23 15:43:21.719 [TRACE] [performance] CPU usage: 108.7% | {"cores_active": Number(4), "cpu_percent": Number(108.72492904524408)}
+2025-05-23 15:43:24.719 [INFO] [mining] Mining started with public key: mining_demo_key_1748014614 | {"session_id": String("mining_session_1748014614"), "wallet": String("mining_demo_key_1748014614")}
+2025-05-23 15:43:27.719 [DEBUG] [mining] Current hash rate: 2437.39 H/s | {"unit": String("H/s"), "hash_rate": Number(2437.3904035609335)}
+2025-05-23 15:43:30.719 [DEBUG] [mining] Current hash rate: 2409.67 H/s | {"hash_rate": Number(2409.6670688485374), "unit": String("H/s")}
+2025-05-23 15:43:33.719 [DEBUG] [mining] Current hash rate: 2370.94 H/s | {"unit": String("H/s"), "hash_rate": Number(2370.937455859015)}
+2025-05-23 15:43:36.719 [INFO] [network] Connected to 7 peers | {"peer_count": Number(7), "network_status": String("connected")}
+2025-05-23 15:43:39.719 [INFO] [network] Connected to 8 peers | {"peer_count": Number(8), "network_status": String("connected")}
+2025-05-23 15:43:42.719 [DEBUG] [mining] Attempting to mine block #13 | {"block_number": Number(13), "attempt": Number(6)}
+2025-05-23 15:43:45.719 [TRACE] [performance] Memory usage: 543.0 MB | {"memory_type": String("heap"), "memory_mb": Number(543.0434889588647)}
+2025-05-23 15:43:48.719 [INFO] [network] Established connection with peer_3 | {"peer_id": String("peer_3"), "connection_type": String("outbound")}
+2025-05-23 15:43:51.719 [TRACE] [performance] CPU usage: 110.6% | {"cores_active": Number(4), "cpu_percent": Number(110.55124440600966)}
+2025-05-23 15:43:54.719 [INFO] [mining] Mining started with public key: mining_demo_key_1748014614 | {"wallet": String("mining_demo_key_1748014614"), "session_id": String("mining_session_1748014614")}
+2025-05-23 15:43:57.719 [DEBUG] [mining] Current hash rate: 2479.75 H/s | {"hash_rate": Number(2479.7456233046396), "unit": String("H/s")}
+2025-05-23 15:44:00.719 [DEBUG] [mining] Current hash rate: 2495.87 H/s | {"unit": String("H/s"), "hash_rate": Number(2495.8664840882557)}
+2025-05-23 15:44:03.719 [DEBUG] [mining] Current hash rate: 2532.18 H/s | {"hash_rate": Number(2532.182039912611), "unit": String("H/s")}
+2025-05-23 15:44:06.719 [INFO] [network] Connected to 7 peers | {"network_status": String("connected"), "peer_count": Number(7)}
+2025-05-23 15:44:09.719 [INFO] [network] Connected to 8 peers | {"peer_count": Number(8), "network_status": String("connected")}
+2025-05-23 15:44:12.719 [DEBUG] [mining] Attempting to mine block #14 | {"block_number": Number(14), "attempt": Number(6)}
+2025-05-23 15:44:15.719 [TRACE] [performance] Memory usage: 552.2 MB | {"memory_mb": Number(552.1755161777907), "memory_type": String("heap")}
+2025-05-23 15:44:18.719 [INFO] [network] Established connection with peer_3 | {"connection_type": String("outbound"), "peer_id": String("peer_3")}
+2025-05-23 15:44:21.719 [TRACE] [performance] CPU usage: 117.8% | {"cores_active": Number(4), "cpu_percent": Number(117.81812796505878)}
+2025-05-23 15:44:24.719 [INFO] [mining] Mining started with public key: mining_demo_key_1748014614 | {"wallet": String("mining_demo_key_1748014614"), "session_id": String("mining_session_1748014614")}
+2025-05-23 15:44:27.719 [DEBUG] [mining] Current hash rate: 2612.90 H/s | {"unit": String("H/s"), "hash_rate": Number(2612.897588524556)}
+2025-05-23 15:44:30.719 [DEBUG] [mining] Current hash rate: 2541.04 H/s | {"unit": String("H/s"), "hash_rate": Number(2541.0363092019543)}
+2025-05-23 15:44:33.719 [DEBUG] [mining] Current hash rate: 2658.45 H/s | {"hash_rate": Number(2658.45240641054), "unit": String("H/s")}
+2025-05-23 15:44:36.719 [INFO] [network] Connected to 7 peers | {"peer_count": Number(7), "network_status": String("connected")}
+2025-05-23 15:44:39.719 [INFO] [network] Connected to 8 peers | {"network_status": String("connected"), "peer_count": Number(8)}
+2025-05-23 15:44:42.719 [DEBUG] [mining] Attempting to mine block #15 | {"block_number": Number(15), "attempt": Number(6)}
+2025-05-23 15:44:45.719 [TRACE] [performance] Memory usage: 579.8 MB | {"memory_mb": Number(579.7545681950014), "memory_type": String("heap")}
+2025-05-23 15:44:48.719 [INFO] [network] Established connection with peer_3 | {"peer_id": String("peer_3"), "connection_type": String("outbound")}
+2025-05-23 15:44:51.719 [TRACE] [performance] CPU usage: 118.6% | {"cpu_percent": Number(118.58595893332773), "cores_active": Number(4)}
+2025-05-23 15:44:54.719 [INFO] [mining] Mining started with public key: mining_demo_key_1748014614 | {"session_id": String("mining_session_1748014614"), "wallet": String("mining_demo_key_1748014614")}
+2025-05-23 15:44:57.719 [DEBUG] [mining] Current hash rate: 2669.00 H/s | {"unit": String("H/s"), "hash_rate": Number(2668.9997910889533)}
+2025-05-23 15:45:00.719 [DEBUG] [mining] Current hash rate: 2782.81 H/s | {"hash_rate": Number(2782.8116817564605), "unit": String("H/s")}
+2025-05-23 15:45:03.719 [DEBUG] [mining] Current hash rate: 2766.24 H/s | {"hash_rate": Number(2766.242355454534), "unit": String("H/s")}
+2025-05-23 15:45:06.719 [INFO] [network] Connected to 7 peers | {"network_status": String("connected"), "peer_count": Number(7)}
+2025-05-23 15:45:09.719 [INFO] [network] Connected to 8 peers | {"network_status": String("connected"), "peer_count": Number(8)}
+2025-05-23 15:45:12.719 [DEBUG] [mining] Attempting to mine block #16 | {"block_number": Number(16), "attempt": Number(6)}
+2025-05-23 15:45:15.719 [TRACE] [performance] Memory usage: 593.1 MB | {"memory_mb": Number(593.1153197745288), "memory_type": String("heap")}
+2025-05-23 15:45:18.719 [INFO] [network] Established connection with peer_3 | {"peer_id": String("peer_3"), "connection_type": String("outbound")}
+2025-05-23 15:45:21.719 [TRACE] [performance] CPU usage: 115.0% | {"cores_active": Number(4), "cpu_percent": Number(115.01830455076295)}
+2025-05-23 15:45:24.719 [INFO] [mining] Mining started with public key: mining_demo_key_1748014614 | {"session_id": String("mining_session_1748014614"), "wallet": String("mining_demo_key_1748014614")}
+2025-05-23 15:45:27.719 [DEBUG] [mining] Current hash rate: 2890.09 H/s | {"unit": String("H/s"), "hash_rate": Number(2890.0891806488826)}
+2025-05-23 15:45:30.719 [DEBUG] [mining] Current hash rate: 2832.73 H/s | {"unit": String("H/s"), "hash_rate": Number(2832.7268827809753)}
+2025-05-23 15:45:33.719 [DEBUG] [mining] Current hash rate: 2812.43 H/s | {"unit": String("H/s"), "hash_rate": Number(2812.4276998638215)}
+2025-05-23 15:45:36.719 [INFO] [network] Connected to 7 peers | {"peer_count": Number(7), "network_status": String("connected")}
+2025-05-23 15:45:39.719 [INFO] [network] Connected to 8 peers | {"network_status": String("connected"), "peer_count": Number(8)}
+2025-05-23 15:45:42.719 [DEBUG] [mining] Attempting to mine block #17 | {"block_number": Number(17), "attempt": Number(6)}
+2025-05-23 15:45:45.719 [TRACE] [performance] Memory usage: 644.2 MB | {"memory_type": String("heap"), "memory_mb": Number(644.2063563697885)}
+2025-05-23 15:45:48.719 [INFO] [network] Established connection with peer_3 | {"peer_id": String("peer_3"), "connection_type": String("outbound")}
+2025-05-23 15:45:51.719 [TRACE] [performance] CPU usage: 123.3% | {"cores_active": Number(4), "cpu_percent": Number(123.26661120841501)}
+2025-05-23 15:45:54.719 [INFO] [mining] Mining started with public key: mining_demo_key_1748014614 | {"wallet": String("mining_demo_key_1748014614"), "session_id": String("mining_session_1748014614")}
+2025-05-23 15:45:57.719 [DEBUG] [mining] Current hash rate: 2886.03 H/s | {"unit": String("H/s"), "hash_rate": Number(2886.0314293563133)}
+2025-05-23 15:46:00.719 [DEBUG] [mining] Current hash rate: 2866.39 H/s | {"hash_rate": Number(2866.3858238717344), "unit": String("H/s")}
+2025-05-23 15:46:03.719 [DEBUG] [mining] Current hash rate: 2892.60 H/s | {"unit": String("H/s"), "hash_rate": Number(2892.5988789966996)}
+2025-05-23 15:46:06.719 [INFO] [network] Connected to 7 peers | {"peer_count": Number(7), "network_status": String("connected")}
+2025-05-23 15:46:09.719 [INFO] [network] Connected to 8 peers | {"peer_count": Number(8), "network_status": String("connected")}
+2025-05-23 15:46:12.719 [DEBUG] [mining] Attempting to mine block #18 | {"block_number": Number(18), "attempt": Number(6)}
+2025-05-23 15:46:15.719 [TRACE] [performance] Memory usage: 630.9 MB | {"memory_type": String("heap"), "memory_mb": Number(630.9391987060546)}
+2025-05-23 15:46:18.719 [INFO] [network] Established connection with peer_3 | {"peer_id": String("peer_3"), "connection_type": String("outbound")}
+2025-05-23 15:46:21.719 [TRACE] [performance] CPU usage: 119.8% | {"cpu_percent": Number(119.77612835836516), "cores_active": Number(4)}
+2025-05-23 15:46:24.719 [INFO] [mining] Mining started with public key: mining_demo_key_1748014614 | {"session_id": String("mining_session_1748014614"), "wallet": String("mining_demo_key_1748014614")}
+2025-05-23 15:46:27.719 [DEBUG] [mining] Current hash rate: 3028.22 H/s | {"hash_rate": Number(3028.218626049454), "unit": String("H/s")}
+2025-05-23 15:46:30.719 [DEBUG] [mining] Current hash rate: 2921.60 H/s | {"hash_rate": Number(2921.597764023631), "unit": String("H/s")}
+2025-05-23 15:46:33.719 [DEBUG] [mining] Current hash rate: 3114.49 H/s | {"unit": String("H/s"), "hash_rate": Number(3114.4870787920922)}
+2025-05-23 15:46:36.719 [INFO] [network] Connected to 7 peers | {"peer_count": Number(7), "network_status": String("connected")}
+2025-05-23 15:46:39.719 [INFO] [network] Connected to 8 peers | {"peer_count": Number(8), "network_status": String("connected")}
+2025-05-23 15:46:42.719 [DEBUG] [mining] Attempting to mine block #19 | {"block_number": Number(19), "attempt": Number(6)}
+2025-05-23 15:46:45.719 [TRACE] [performance] Memory usage: 649.7 MB | {"memory_mb": Number(649.7094921911403), "memory_type": String("heap")}
+2025-05-23 15:46:48.719 [INFO] [network] Established connection with peer_3 | {"peer_id": String("peer_3"), "connection_type": String("outbound")}
+2025-05-23 15:46:51.719 [TRACE] [performance] CPU usage: 141.6% | {"cores_active": Number(4), "cpu_percent": Number(141.60483612540708)}
+2025-05-23 15:46:54.719 [ERROR] [network] Error: Connection timeout | {"error_type": String("network"), "severity": String("high")}
+2025-05-23 15:51:54.719 [WARN] [performance] Warning: High memory usage detected | {"severity": String("medium"), "warning_type": String("performance")}

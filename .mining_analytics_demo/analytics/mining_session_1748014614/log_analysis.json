@@ -1,0 +1,28 @@
+{
+  "session_id": "mining_session_1748014614",
+  "analysis_time": "2025-05-23T15:36:54.722726699Z",
+  "total_entries": 0,
+  "log_levels": {},
+  "components": {},
+  "performance_metrics": {
+    "hash_rate_samples": [],
+    "memory_usage_samples": [],
+    "cpu_usage_samples": [],
+    "network_activity": [],
+    "block_times": [
+      10.5,
+      12.3,
+      9.8,
+      11.2,
+      13.1
+    ]
+  },
+  "error_patterns": [],
+  "mining_stats": {
+    "blocks_attempted": 0,
+    "blocks_found": 0,
+    "total_hash_operations": 0,
+    "average_hash_rate": 0.0,
+    "uptime_seconds": 600
+  }
+}

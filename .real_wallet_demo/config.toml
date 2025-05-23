@@ -1,0 +1,22 @@
+[nockchain]
+data_dir = ".data.nockchain"
+bind_address = "/ip4/0.0.0.0/udp/0/quic-v1"
+peer_port = 0
+
+[wallet]
+wallet_dir = ".nockchain-wallet"
+backup_dir = "wallet-backups"
+
+[mining]
+stats_retention_days = 30
+
+[network]
+bootstrap_peers = []
+connection_timeout = 30
+max_peers = 50
+
+[logging]
+level = "info"
+format = "pretty"
+rotation_size_mb = 100
+retention_days = 7
