@@ -1,0 +1,63 @@
+{
+  "name": "docxology-rag",
+  "version": "0.1.0",
+  "description": "RAG-enhanced documentation search for Docxology",
+  "server": {
+    "port": 3000,
+    "host": "0.0.0.0"
+  },
+  "embeddings": {
+    "provider": "openai",
+    "model": "text-embedding-3-small",
+    "dimensions": 1536,
+    "chunk_size": 1000,
+    "chunk_overlap": 200
+  },
+  "vector_store": {
+    "provider": "chroma",
+    "collection": "docxology-docs",
+    "persist_directory": "./chroma_db"
+  },
+  "sources": [
+    {
+      "type": "markdown",
+      "paths": [
+        "../book/src/**/*.md",
+        "../../README.md",
+        "../../docxology/README.md"
+      ],
+      "recursive": true
+    },
+    {
+      "type": "rustdoc",
+      "paths": [
+        "../generated/doc/**/*.html"
+      ],
+      "recursive": true,
+      "extractors": ["title", "description", "code", "examples"]
+    },
+    {
+      "type": "code",
+      "paths": [
+        "../../docxology/rust/src/**/*.rs",
+        "../../docxology/python/**/*.py"
+      ],
+      "recursive": true,
+      "languages": ["rust", "python"]
+    }
+  ],
+  "search": {
+    "similarity_threshold": 0.7,
+    "max_results": 10,
+    "rerank": true,
+    "highlight": true
+  },
+  "api": {
+    "enabled": true,
+    "cors": {
+      "origins": ["*"],
+      "methods": ["GET", "POST"],
+      "headers": ["*"]
+    }
+  }
+}

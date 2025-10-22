@@ -1,0 +1,46 @@
+# mdBook Configuration
+
+[book]
+title = "Docxology: Nockchain Orchestrator"
+description = "Comprehensive guide for using the Docxology orchestrator for Nockchain operations"
+authors = ["Nockchain Developers"]
+language = "en"
+multilingual = false
+
+[build]
+build-dir = "../generated"
+create-missing = true
+use-default-preprocessors = true
+
+[preprocessor.mermaid]
+command = "mdbook-mermaid"
+
+[preprocessor.plantuml]
+command = "mdbook-plantuml"
+
+[output.html]
+default-theme = "navy"
+preferred-dark-theme = "navy"
+copy-fonts = true
+git-repository-url = "https://github.com/zorp-corp/nockchain"
+edit-url-template = "https://github.com/zorp-corp/nockchain/edit/master/docxology/docs/book/src/{path}"
+site-url = "/docxology/"
+
+[output.html.search]
+enable = true
+limit-results = 30
+teaser-word-count = 30
+use-boolean-and = true
+boost-title = 2
+boost-hierarchy = 1
+boost-paragraph = 1
+expand = true
+heading-split-level = 2
+
+[output.linkcheck]
+follow-web-links = true
+traverse-parent-directories = false
+exclude = [
+    "https://nockchain-api.zorp.io",
+    "https://github.com/zorp-corp/nockchain",
+]

@@ -1,0 +1,56 @@
+[package]
+name = "docxology"
+version = "0.1.0"
+edition = "2021"
+description = "Thin orchestrator methods and utilities for Nockchain"
+authors = ["Nockchain Developers"]
+license = "MIT OR Apache-2.0"
+keywords = ["blockchain", "nockchain", "orchestrator", "zkvm"]
+categories = ["api-bindings", "cryptography"]
+
+[dependencies]
+# Core Nockchain dependencies
+nockchain = { path = "../../crates/nockchain" }
+nockchain-types = { path = "../../crates/nockchain-types" }
+nockchain-wallet = { path = "../../crates/nockchain-wallet" }
+nockchain-libp2p-io = { path = "../../crates/nockchain-libp2p-io" }
+nockapp = { path = "../../crates/nockapp" }
+nockapp-grpc = { path = "../../crates/nockapp-grpc" }
+nockapp-grpc-proto = { path = "../../crates/nockapp-grpc-proto" }
+kernels = { path = "../../crates/kernels" }
+noun-serde = { path = "../../crates/noun-serde" }
+noun-serde-derive = { path = "../../crates/noun-serde-derive" }
+zkvm-jetpack = { path = "../../crates/zkvm-jetpack" }
+nockvm = { path = "../../crates/nockvm/rust/nockvm" }
+
+# External dependencies
+tokio = { version = "1.32", features = ["full"] }
+clap = { version = "4.4.4", features = ["derive"] }
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+anyhow = "1.0"
+thiserror = "2.0"
+tracing = "0.1"
+config = "0.15"
+dirs = "6.0"
+base64 = "0.21"
+num_cpus = "1.16.0"
+toml = "0.8"
+tempfile = "3.3"
+tokio-test = "0.4"
+tracing-subscriber = "0.3"
+rand = "0.8"
+
+# Optional Python bindings
+[dependencies.pyo3]
+version = "0.21"
+features = ["extension-module", "abi3-py38", "pyo3-asyncio"]
+optional = true
+
+[features]
+default = []
+python = ["pyo3"]
+
+[lib]
+name = "docxology"
+crate-type = ["cdylib", "rlib"]
